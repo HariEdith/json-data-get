@@ -1,0 +1,2512 @@
+{
+	"Header": {
+		"ResponseHeader": {
+			"RequestMessageKey": {
+				"ServiceRequestVersion": "10.2",
+				"RequestUUID": "${=java.util.UUID.randomUUID()}",
+				"ChannelId": "COR",
+				"ServiceRequestId": "CustAcctInq"
+			},
+			"HostTransaction": {
+				"Status": "SUCCESS",
+				"Id": null
+			},
+			"HostParentTransaction": {
+				"Status": null,
+				"Id": null
+			},
+			"ResponseMessageInfo": {
+				"MessageDateTime": "2024-04-12T15:33:07.942",
+				"TimeZone": "GMT+05:30",
+				"BankId": "01"
+			},
+			"CustomInfo": null,
+			"UBUSTransaction": {
+				"Status": null,
+				"Id": null
+			}
+		}
+	},
+	"schemaLocation": "http://www.finacle.com/fixml CustAcctInq.xsd",
+	"Body": {
+		"CustAcctInqResponse": {
+			"CustAcctInqRs": {
+				"CorpCustDtls": {
+					"TertiaryRMUserId": null,
+					"CustGroup": null,
+					"RegionCode": null,
+					"PriorityCode": null,
+					"BusinessType": null,
+					"CountryOfOrigin": null,
+					"RelationshipType": null,
+					"CurrCode": null,
+					"ShortName": null,
+					"CustAssetClassification": null,
+					"TaxId": null,
+					"KeyContactPersonName": null,
+					"SubSectorCode": null,
+					"SecondaryRMUserId": null,
+					"CorpKey": null,
+					"LanguageCode": null,
+					"ParentOfEntity": null,
+					"SectorCode": null,
+					"ParentCustId": null,
+					"PrimaryRMUserId": null,
+					"NameOfIntroducer": null,
+					"PrincipalPlaceOperation": null,
+					"CustType": null,
+					"BusinessGroup": null,
+					"LegalEntityType": null,
+					"Rmks": null,
+					"Priority": null,
+					"PrimaryServiceCenter": null,
+					"DSAId": null,
+					"ChargeLevelCode": null,
+					"CorpName": null,
+					"GroupId": null,
+					"HealthCode": null,
+					"CountryOfIncorporation": null,
+					"EntityType": null,
+					"DefaultAddrType": null,
+					"TDSCustId": null,
+					"Region": null,
+					"CountryOfPrincipalOperation": null
+				},
+				"CustId": "6500073",
+				"RetCustDtlsInfo": {
+					"NativeLanguage": null,
+					"FirstName": null,
+					"Sector": null,
+					"HouseholdName": null,
+					"OccupationCode": null,
+					"SalutationCode": null,
+					"SubSectorCode": null,
+					"StatusCode": null,
+					"IsCorpRepresentative": null,
+					"GroupId": null,
+					"TDSTable": null,
+					"DefaultAddrType": null,
+					"HouseholdFlag": null,
+					"NativeLanguageCode": null,
+					"SectorCode": null,
+					"TDSCustId": null,
+					"SubSegment": null,
+					"CustSwiftCode": null,
+					"SubSector": null,
+					"LastName": null,
+					"IsSwiftCodeOfBank": null,
+					"CustTypeCode": null
+				},
+				"GenUnifiedAcctsDtls": [
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2010-01-19T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "04682560000040",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0468",
+							"ProdCatId": "3",
+							"ProductCode": "ODA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "ROCOB",
+							"ProductCategory": "ROCOB",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2014-06-23T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "010",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0711446647",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0462",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "RCWBG",
+							"ProductCategory": "RCWBG",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2008-07-10T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "09582560005193",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "ODA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "ROCOB",
+							"ProductCategory": "ROCOB",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2008-08-20T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "09582560005303",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "ODA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "ROCOB",
+							"ProductCategory": "ROCOB",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2009-05-13T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "09582560005630",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "ODA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "ROCOB",
+							"ProductCategory": "ROCOB",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2009-07-09T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "09582560005760",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "ODA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "RCCOB",
+							"ProductCategory": "RCCOB",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2011-06-30T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "09582560008774",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "ODA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "ROCOB",
+							"ProductCategory": "ROCOB",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2019-05-07T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958DL0100002938",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "WCFIX",
+							"ProductCategory": "WCFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2019-06-06T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958DL0100003011",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "WCFIX",
+							"ProductCategory": "WCFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2019-08-02T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958DL0100003143",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "WCFIX",
+							"ProductCategory": "WCFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2019-08-05T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958DL0100003147",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "WCFIX",
+							"ProductCategory": "WCFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2019-08-13T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958DL0100003162",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "WCFIX",
+							"ProductCategory": "WCFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2019-09-21T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958DL0100003247",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "WCFIX",
+							"ProductCategory": "WCFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2019-12-07T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958DL0100003446",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "WCFIX",
+							"ProductCategory": "WCFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2019-12-26T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958DL0100003499",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "WCFIX",
+							"ProductCategory": "WCFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2019-12-26T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958DL0100003500",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "WCFIX",
+							"ProductCategory": "WCFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2019-12-26T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958DL0100003501",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "WCFIX",
+							"ProductCategory": "WCFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2020-01-03T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958DL0100003517",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "WCFIX",
+							"ProductCategory": "WCFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2020-01-06T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958DL0100003521",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "WCFIX",
+							"ProductCategory": "WCFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2020-01-09T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958DL0100003534",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "WCFIX",
+							"ProductCategory": "WCFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2020-02-06T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958DL0100003593",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "WCFIX",
+							"ProductCategory": "WCFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2018-05-07T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958TL0100002029",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "TLFIX",
+							"ProductCategory": "TLFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2018-10-19T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958TL0100002237",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "TLFIX",
+							"ProductCategory": "TLFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2020-03-25T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": null,
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "0958TL0100002733",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "12",
+							"ProductCode": "CLA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "TLFIX",
+							"ProductCategory": "TLFIX",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2017-08-03T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "1612045984",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "RERWB",
+							"ProductCategory": "RERWB",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2017-08-03T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "1612045991",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "CAWBG",
+							"ProductCategory": "CAWBG",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2017-08-03T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "1612046004",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "RCWBG",
+							"ProductCategory": "RCWBG",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2017-08-03T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "1612046011",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "RERWB",
+							"ProductCategory": "RERWB",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2017-08-03T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Closed",
+							"AcctClosureDt": "2022-03-11T00:00:00.000",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "1612046059",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "RERWB",
+							"ProductCategory": "RERWB",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2017-08-03T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Closed",
+							"AcctClosureDt": "2022-06-28T00:00:00.000",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "1612046066",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "RERWB",
+							"ProductCategory": "RERWB",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2017-08-03T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "1612046073",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "RERWB",
+							"ProductCategory": "RERWB",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2017-08-02T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Closed",
+							"AcctClosureDt": "2021-12-02T00:00:00.000",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "1612046080",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "CAWBG",
+							"ProductCategory": "CAWBG",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2017-08-02T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Closed",
+							"AcctClosureDt": "2021-12-02T00:00:00.000",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "1612046103",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "CAWBG",
+							"ProductCategory": "CAWBG",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2017-08-02T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Closed",
+							"AcctClosureDt": "2021-12-02T00:00:00.000",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "1612046110",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "CAWBG",
+							"ProductCategory": "CAWBG",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2017-08-02T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "1612046417",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "RCWBG",
+							"ProductCategory": "RCWBG",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2017-07-06T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "2012182361",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "CIWDW",
+							"ProductCategory": "CIWDW",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2004-08-30T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Closed",
+							"AcctClosureDt": "2021-09-21T00:00:00.000",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "421011001646",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "7803",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "CAWBG",
+							"ProductCategory": "CAWBG",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2005-01-01T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Closed",
+							"AcctClosureDt": "2021-09-21T00:00:00.000",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "421011001921",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "7803",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "CAWBG",
+							"ProductCategory": "CAWBG",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2016-10-07T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Closed",
+							"AcctClosureDt": "2021-12-02T00:00:00.000",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "5011808287",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "CAWBG",
+							"ProductCategory": "CAWBG",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2016-10-07T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Closed",
+							"AcctClosureDt": "2021-12-02T00:00:00.000",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "5011808294",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "CAWBG",
+							"ProductCategory": "CAWBG",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2017-11-08T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "5011875302",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "ROWBG",
+							"ProductCategory": "ROWBG",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2018-03-26T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "5012812887",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "ROWBG",
+							"ProductCategory": "ROWBG",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2018-05-03T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "005",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "5012824088",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "ROWBG",
+							"ProductCategory": "ROWBG",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2018-05-09T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "5012826501",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "ROWBG",
+							"ProductCategory": "ROWBG",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2018-11-28T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "5012902212",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "6431",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "ROWBG",
+							"ProductCategory": "ROWBG",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2023-01-01T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "SHORT NAME",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "E01",
+							"AcctCurrCode": "INR"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "5047466666",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "Main Account Holder"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "2",
+							"ProductCode": "TDA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "CO180",
+							"ProductCategory": "CO180",
+							"IsMasterAcct": null
+						}
+					},
+					{
+						"SaleChannelDtls": {
+							"AcctOpeningDt": "2018-05-29T00:00:00.000",
+							"IntRepaymentAcct": null,
+							"RepaymentAcctBank": null,
+							"PrefRepaymentMode": null,
+							"RepaymentAcctId": null,
+							"AcctShortName": "LARSEN AND",
+							"EligibilityResults": null,
+							"RepaymentMode": null,
+							"PosteIDSRStatus": null,
+							"AcctStatus": "Open",
+							"CrScoreStatus": null,
+							"ModeOfOperation": "011",
+							"AcctCurrCode": "USD"
+						},
+						"SaleDtls": {
+							"isPPF": null,
+							"AcctId": "6312780876",
+							"IsMultiCurrAcct": "N",
+							"SaleCust": {
+								"Role": "SOW"
+							},
+							"AcctBranchCode": "0958",
+							"ProdCatId": "3",
+							"ProductCode": "CAA",
+							"ProductDtlsInfo": {
+								"ProductFeature": "FINACLECORE"
+							},
+							"IsRevolvingODAcct": null,
+							"SaleChannelDtls": {
+								"PosteIDSRStatus": null,
+								"AcctStatus": null,
+								"IntRepaymentAcct": null,
+								"RepaymentAcctBank": null,
+								"PrefRepaymentMode": null,
+								"CrScoreStatus": null,
+								"RepaymentAcctId": null,
+								"AcctShortName": null,
+								"EligibilityResults": null,
+								"ModeOfOperation": null,
+								"RepaymentMode": null,
+								"AcctCurrCode": null
+							},
+							"ChannelName": null,
+							"TopUpFlag": null,
+							"ChannelCustId": "CASFC",
+							"ProductCategory": "CASFC",
+							"IsMasterAcct": null
+						}
+					}
+				]
+			},
+			"CustAcctInq_CustomData": null
+		}
+	}
+}
