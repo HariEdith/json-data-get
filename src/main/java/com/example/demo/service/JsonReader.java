@@ -21,7 +21,8 @@ public class JsonReader {
 		List<Map<String, Object>> jsonData = new ArrayList<>();
 		List<Object> acctIDList=new ArrayList<>();
 		JSONObject jData = (JSONObject) passer.parse(new FileReader(jsonPath));
-		Map<String, Object> response = new ObjectMa
+		HashMap<String, Object> result = new ObjectMapper().readValue(jData.toJSONString(), HashMap.class);
+		 System.out.println(result);
 
 		JSONObject body = (JSONObject) jData.get("Body");
 		JSONObject custAcctInqResponse = (JSONObject) body.get("CustAcctInqResponse");
@@ -42,9 +43,6 @@ public class JsonReader {
 		
 		System.out.println(acctIDList);
 		}
-
-//			
-//			JSONObject acctId=(JSONObject)saleDtls.get("AcctId");
 
 	}
 
